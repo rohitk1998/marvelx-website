@@ -2,17 +2,6 @@ import { CSSProperties } from "react";
 
 export default function App() {
   
-  const sections = [
-    { id: 'info-collect', title: 'The Information We Collect' },
-    { id: 'how-use', title: 'How We Use The Information We Collect' },
-    { id: 'how-share', title: 'How We Share The Information We Collect' },
-    { id: 'cookies', title: 'Our Use Of Cookies and Other Tracking Mechanisms' },
-    { id: 'third-party', title: 'Third-Party Links' },
-    { id: 'personal-info', title: 'Personal Information Choices' },
-    { id: 'contact', title: 'Contact Us' },
-    { id: 'changes', title: 'Changes to this Policy' }
-  ];
-
   const containerStyle:CSSProperties = {
     display: 'flex',
     flexDirection: 'column',
