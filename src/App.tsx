@@ -106,11 +106,6 @@ export default function App() {
     color: '#9ca3af',
   };
 
-  const emailStyle = {
-    color: '#3b82f6',
-    textDecoration: 'underline',
-  };
-
   return (
     <div style={containerStyle}>
       <style>{`
